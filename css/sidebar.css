@@ -1,0 +1,8 @@
+.sidebar h2{
+font-size:25px;}
+#temp, #humidity{
+	margin-right:10%;
+font-size:70px;
+}
+#humidity {
+margin-right:20%;}

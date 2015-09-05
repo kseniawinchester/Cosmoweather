@@ -1,0 +1,134 @@
+<html>
+
+<head>
+	<title>Cosmo Weather Forecast</title>
+	<!--jquery library-->
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!--load font awesome-->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/planet.css">
+	<link rel="stylesheet" href="css/minplanet.css">
+	<link rel="stylesheet" href="css/sidebar.css">
+	<link rel="stylesheet" href="css/backcloud.css">
+	<script src="script/scriptweather.js"></script>
+	<script src="script/scriptweather1.js"></script>
+	<script src="script/scriptweather2.js"></script>
+	<script src="script/scriptweather3.js"></script>
+</head>
+
+<body>
+	</br>
+	</br>
+	</br>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="row">
+					<div id="day1"></div>
+					<div class="minplanet">
+						<div id="icon1"></div>
+						<div id="description1"></div>
+					</div>
+					<div id="temp1"></div>
+				</div>
+				<div class="row">
+					<div id="day2"></div>
+					<div class="minplanet">
+						<div id="icon2"></div>
+						<div id="description2"></div>
+					</div>
+					<div id="temp2"></div>
+				</div>
+				<div class="row">
+					<div id="day3"></div>
+					<div class="minplanet">
+						<div id="icon3"></div>
+						<div id="description3"></div>
+					</div>
+					<div id="temp3"></div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div id="planet">
+					<div class="title_main">
+						<h1 class="cosmo">COSMO</h1>
+						<h2>Weather forecast</h2>
+					</div>
+				</div>
+			</div>
+			<div class=" sidebar col-lg-4">
+				<div class="clouds_one">
+				<div class="row">
+					<div class="col-lg-6">
+						<h2>Current date:</h2>
+					</div>
+					<div class="col-lg-6">
+						<h2><div id="date"></div></h2>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-8">
+						<div id="icon">
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<br/>
+						<h2><div id="description"></div></h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-8">
+						<h2>Day temperature: </h2>
+					</div>
+					<div class="col-lg-4">
+						<div id="temp"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<h2>Humidity:</h2>
+					</div>
+					<div class="col-lg-6">
+						<div id="humidity"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		</div>
+	<div class="row col-lg-12">
+		</br>
+		</br>
+		<div class="location-box">
+			<h2>Hey Astronaut, your's current location
+					</br> is:</h2>
+			<div class="cmn-t-pulse">
+				<div id="location"></div>
+			</div>
+			<div class="social">
+				<ul>
+					<li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-lg fa-github"></i></a></li>
+					<li><a href="#"><i class="fa fa-lg fa-pinterest"></i></a></li>
+				</ul>
+			</div>
+		</div>
+
+</body>
+
+</html>
