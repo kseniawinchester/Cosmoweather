@@ -1,0 +1,17 @@
+
+.leftside{
+height:40%;
+margin-top:250px;
+margin-left:1%;
+	
+		
+}
+
+#perspective2 figure{
+
+   transform: perspective( 1000px ) rotateY( -30deg );}
+#perspective2{
+font-size:28px;}
+#perspective2 image{
+width:100%;
+height:100%;}

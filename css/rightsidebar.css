@@ -1,0 +1,23 @@
+.rightside {
+	height: 400px;
+	margin-left: 1%;
+}
+#perspective1 figure {
+	transform: perspective( 1000px) rotateY( 30deg);
+}
+.animround1 {
+	width: 40%;
+	height: 80px;
+	background-image: url(../images/animraund1.png);
+	background-repeat: no-repeat;
+}
+
+.numb {
+	width: 90%;
+	height: 80px;
+	background-image: url(../images/numb.png);
+	background-repeat: no-repeat;
+}
+.title h3, .name h3{
+font-size:20px;
+}

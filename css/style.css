@@ -8,104 +8,100 @@ body {
 	width: 100%;
 	font-family: "Audiowide";
 	color: rgb(0, 255, 255);
-	background-color: black;
+	background-image: url(../images/pioneer_2013-10-09_11-27-03-62.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
+
+.container ,.rightside, .leftside{
+	margin-top:200px;
+	border: 1px solid rgb(0, 255, 255);
+	background-image: url(../images/grid.png);
+	background-size: 10%;
+	background-color: transparent;
+	background-repeat: repeat;
+	opacity:0.9;
+}
+
+	
 .title_main h2 {
 	color: white;
-	font-size: 48px;
-	
+	font-size: 32px;
 }
 .title_main h1 {
 	color: white;
-	font-size: 68px;
-	}
+	font-size: 58px;
+}
 .title_main {
-	text-align:center;
+	text-align: center;
 	margin: 6em auto;
 	position: absolute;
 	text-shadow: 2px 2px rgb(0, 255, 255);
 }
-.location-box{
-text-align:center;}
-#location{
-font-size:52px;
+.location-box {
+	margin-right: 10%;
+	text-align: right;
 }
-.cmn-t-pulse {
-  padding: 20px 40px;
-  color: rgb(0, 255, 255);
-  animation: pulse 1s ease infinite;
-  /* transition: transform 0.2s; */
+#location {
+	text-align: right;
+	font-size: 30px;
 }
-.cmn-t-pulse:hover {
-  color: #fff;
-}
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
 
-  50% {
-    transform: scale(1.1);
-  }
 
-  100% {
-    transform: scale(1);
-  }
-}
 .social {
-	text-align:center;
-    margin: 0;
-    padding: 0;
+	text-align: center;
+	margin: 0;
+	padding: 0;
 }
-
 .social ul {
-    margin: 0;
-    padding: 5px;
+	margin: 0;
+	padding: 5px;
 }
-
 .social ul li {
-    margin: 5px;
-    list-style: none outside none;
-    display: inline-block;
+	margin: 5px;
+	list-style: none outside none;
+	display: inline-block;
 }
 .social i {
-    width: 40px;
-    height: 40px;
-    color: #FFF;
-    background-color: #909AA0;
-    font-size: 22px;
-    text-align:center;
-    padding-top: 12px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -o-border-radius: 50%;
-    transition: all ease 0.3s;
-    -moz-transition: all ease 0.3s;
-    -webkit-transition: all ease 0.3s;
-    -o-transition: all ease 0.3s;
-    -ms-transition: all ease 0.3s;
+	width: 40px;
+	height: 40px;
+	color: #FFF;
+	background-color: #909AA0;
+	font-size: 22px;
+	text-align: center;
+	padding-top: 12px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+	transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-webkit-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
 }
-
 .social i:hover {
-    color: #FFF;
-    text-decoration: none;
-    transition: all ease 0.3s;
-    -moz-transition: all ease 0.3s;
-    -webkit-transition: all ease 0.3s;
-    -o-transition: all ease 0.3s;
-    -ms-transition: all ease 0.3s;
+	color: #FFF;
+	text-decoration: none;
+	transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-webkit-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
 }
-.social .fa-facebook:hover { /* round facebook icon*/
-    background: #4060A5;
+.social .fa-facebook:hover {
+	/* round facebook icon*/
+	background: #4060A5;
 }
-
-.social .fa-twitter:hover { /* round twitter icon*/
-    background: #00ABE3;
+.social .fa-twitter:hover {
+	/* round twitter icon*/
+	background: #00ABE3;
 }
-.social .fa-github:hover { /* round github icon*/
-    background: #343434;
+.social .fa-github:hover {
+	/* round github icon*/
+	background: #343434;
 }
-.social .fa-pinterest:hover { /* round pinterest icon*/
-    background: #cb2027;
+.social .fa-pinterest:hover {
+	/* round pinterest icon*/
+	background: #cb2027;
 }

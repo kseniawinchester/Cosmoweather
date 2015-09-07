@@ -1,13 +1,14 @@
 @import 'style.css';
 #planet{
+	margin-right:1%;
   position: relative;
   width: 100%;
-  height:400px;
-  background: url(http://www.artsfon.com/pic/201501/1366x768/artsfon.com-49615.jpg) 0 0 repeat;
+  height:300px;
+  background: url(../images/weather_paper.jpg) 0 0 repeat;
   border-radius: 50%;
-  background-size:800px;
-  animation: rotate 8s linear infinite;
-  transition: transform 800ms linear;
+  background-size:600px;
+  animation: rotate 10s linear infinite;
+  transition: transform 900ms linear;
   transform-style: preserve-3d;
   box-shadow: inset 10px 0 40px 6px rgba(0, 0, 0, 1);
   color: #000;
@@ -37,4 +38,7 @@
 @keyframes rotate {
   0% {background-position: 0 0;}
   100% {background-position:100% 0;}
+}
+#planet:hover{
+transform:scale3d(1.5, 1.5, 1.5);
 }

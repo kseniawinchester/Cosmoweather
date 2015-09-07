@@ -1,8 +1,16 @@
-.sidebar h2{
-font-size:25px;}
-#temp, #humidity{
-	margin-right:10%;
-font-size:70px;
+.sidebar{
+margin:none;
 }
-#humidity {
+.sidebar h2{
+font-size:20px;}
+#temp0, #humidity0{
+	margin-right:5%;
+font-size:50px;
+}
+#humidity0 {
 margin-right:20%;}
+.icon0 {
+float:left;
+}
+#icon0 img{
+width:100%;}
